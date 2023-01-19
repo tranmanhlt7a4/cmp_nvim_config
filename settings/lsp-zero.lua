@@ -90,6 +90,18 @@ local on_attach = function(client, bufnr)
 end
 -- ============================== nvim-lspconfig ==============================
 
+-- ============================== mason ==============================
+require("mason").setup({
+    ui = {
+        icons = {
+            package_installed = "✓",
+            package_pending = "➜",
+            package_uninstalled = "✗"
+        }
+    }
+})
+-- ============================== mason ==============================
+
 
 -- Learn the keybindings, see :help lsp-zero-keybindings
 -- Learn to configure LSP servers, see :help lsp-zero-api-showcase
@@ -121,6 +133,24 @@ lsp.ensure_installed({
 lsp.nvim_workspace()
 
 lsp.setup()
+
+vim.diagnostic.config(
+    {
+        virtual_text = true,
+        signs = true,
+        update_in_insert = false,
+        underline = true,
+        severity_sort = true,
+        float = {
+          focusable = true,
+          style = 'minimal',
+          border = 'rounded',
+          source = 'always',
+          header = '',
+          prefix = '',
+        },
+    }
+)
 
 -- -- Set up lspconfig manual.
 -- local capabilities = require('cmp_nvim_lsp').default_capabilities()

@@ -2,7 +2,7 @@
 " => General settings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set termguicolors
-set signcolumn='yes'
+set signcolumn=yes
 set cursorline
 set nowrap
 set relativenumber

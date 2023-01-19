@@ -17,6 +17,7 @@ call plug#begin(stdpath('config').'/plugged')
     Plug 'folke/trouble.nvim'                  " Diagnose window using LSP
     Plug 'itchyny/vim-cursorword'              " Highlight current word and others under the cursor
     Plug 'kosayoda/nvim-lightbulb'             " Display a lightbulb when have a hint
+    Plug 'kylechui/nvim-surround'              " Add bracket surround code
 
     " HTML Support
     Plug 'mattn/emmet-vim'                     " Add tag surround

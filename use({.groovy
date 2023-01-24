@@ -1,13 +1,3 @@
-use({
-    "folke/noice.nvim",
-    requires = {
-      "MunifTanjim/nui.nvim",
-      "rcarriga/nvim-notify",
-    }
-  })
-
-  use 'sainnhe/everforest'
-
   use 'rmagatti/alternate-toggler'
   use 'windwp/nvim-autopairs'
   use 'mg979/vim-visual-multi'

@@ -13,8 +13,8 @@ vim.api.nvim_set_keymap("n", "<leader>u", ":Telescope undo<CR>", opts)
 vim.api.nvim_set_keymap("n", "<F5>", ":Telescope file_browser<CR>", opts)
 
 -- Bookmark
-vim.keymap.set('n', '<C-b>a', require('telescope').extensions.vim_bookmarks.all(), opts)
-vim.keymap.set('n', '<C-b>cf', require('telescope').extensions.vim_bookmarks.current_file(), opts)
+vim.keymap.set('n', '<C-b>a', require('telescope').extensions.vim_bookmarks.all, opts)
+vim.keymap.set('n', '<C-b>cf', require('telescope').extensions.vim_bookmarks.current_file, opts)
 
 -- NOTE: File browser actions
 -- Insert / Normal    fb_actions            Description

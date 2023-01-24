@@ -22,8 +22,7 @@ call plug#begin(stdpath('config').'/plugged')
     Plug 'rmagatti/alternate-toggler'                     " Quick change boolean value
     Plug 'gcmt/wildfire.vim'                              " Select text in a group quickly by press Enter
     Plug 'mg979/vim-visual-multi', {'branch': 'master'}   " Multicursor
-    Plug 'tpope/vim-obsession'                            " Remember section
-    
+
     " UI Commandbar and notice
     Plug 'folke/noice.nvim'
     Plug 'MunifTanjim/nui.nvim'
@@ -95,6 +94,7 @@ call plug#begin(stdpath('config').'/plugged')
     Plug 'tpope/vim-rhubarb' 
     Plug 'airblade/vim-gitgutter'                 " Git show changes 
     Plug 'samoshkin/vim-mergetool'                " Git merge
+    Plug 'f-person/git-blame.nvim'                " Show information of the last commit
 call plug#end()
 
 " Load general settings first

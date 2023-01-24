@@ -98,13 +98,18 @@ local cmp_config = lsp.defaults.cmp_config({
     completion = {
       completeopt = 'menu,menuone,noinsert,noselect'
     },
+    -- Change window type
+    window = {
+        completion = cmp.config.window.bordered(),
+        documentation = cmp.config.window.bordered(),
+    },
     -- Specify priority of each source
     sources = {
         {name = 'path'},
         {name = 'nvim_lsp', keyword_length = 3},
         {name = 'buffer', keyword_length = 3},
         {name = 'luasnip', keyword_length = 2},
-    }
+    },
     -- Remap some key
     mapping = cmp_mappings,
     -- Load icons

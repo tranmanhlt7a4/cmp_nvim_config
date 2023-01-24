@@ -8,7 +8,7 @@ call plug#begin(stdpath('config').'/plugged')
     Plug 'ziontee113/icon-picker.nvim'         " Icon picker
         Plug 'stevearc/dressing.nvim'              " -> UI for icon picker
     Plug 'jiangmiao/auto-pairs'                " Auto add close bracket
-    Plug 'luochen1990/rainbow'                 " Highlight brackets in a pair
+    Plug 'p00f/nvim-ts-rainbow'                " Highlight brackets in a pair
     Plug 'lukas-reineke/indent-blankline.nvim' " Highlight block code
     Plug 'ziontee113/color-picker.nvim'        " Color picker
     Plug 'folke/which-key.nvim'                " Suggest key
@@ -18,6 +18,12 @@ call plug#begin(stdpath('config').'/plugged')
     Plug 'itchyny/vim-cursorword'              " Highlight current word and others under the cursor
     Plug 'kosayoda/nvim-lightbulb'             " Display a lightbulb when have a hint
     Plug 'kylechui/nvim-surround'              " Add bracket surround code
+    Plug 'xiyaowong/nvim-transparent'          " Remove background to make nvim tranparents
+
+    " UI Commandbar and notice
+    Plug 'folke/noice.nvim'
+    Plug 'MunifTanjim/nui.nvim'
+    Plug 'rcarriga/nvim-notify'
 
     " HTML Support
     Plug 'mattn/emmet-vim'                     " Add tag surround

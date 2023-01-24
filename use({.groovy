@@ -1,4 +1,4 @@
-  use 'rmagatti/alternate-toggler'
+
   use 'windwp/nvim-autopairs'
   use 'mg979/vim-visual-multi'
   use 'gcmt/wildfire.vim'

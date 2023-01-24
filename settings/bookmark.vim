@@ -1,15 +1,13 @@
-highlight BookmarkSign ctermbg=NONE ctermfg=160
-highlight BookmarkLine ctermbg=194 ctermfg=NONE
-let g:bookmark_sign = '♥'
-let g:bookmark_highlight_lines = 1
+let g:bookmark_sign = '🔖'    "'♥'
+let g:bookmark_annotation_sign = '📝'
 
-nmap <Leader><Leader>b <Plug>BookmarkToggle
-nmap <Leader>i <Plug>BookmarkAnnotate
-nmap <Leader>a <Plug>BookmarkShowAll
-nmap <Leader>j <Plug>BookmarkNext
-nmap <Leader>k <Plug>BookmarkPrev
-nmap <Leader>c <Plug>BookmarkClear
-nmap <Leader>x <Plug>BookmarkClearAll
-nmap <Leader>kk <Plug>BookmarkMoveUp
-nmap <Leader>jj <Plug>BookmarkMoveDown
-nmap <Leader>g <Plug>BookmarkMoveToLine
+nmap <space><space>b <Plug>BookmarkToggle
+nmap <space><space>i <Plug>BookmarkAnnotate
+nmap <space><space>a <Plug>BookmarkShowAll
+nmap <space><space>j <Plug>BookmarkNext
+nmap <space><space>k <Plug>BookmarkPrev
+nmap <space><space>c <Plug>BookmarkClear
+nmap <space><space>x <Plug>BookmarkClearAll
+nmap <space><space>kk <Plug>BookmarkMoveUp
+nmap <space><space>jj <Plug>BookmarkMoveDown
+nmap <space><space>g <Plug>BookmarkMoveToLine

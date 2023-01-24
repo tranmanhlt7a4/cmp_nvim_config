@@ -20,6 +20,7 @@ call plug#begin(stdpath('config').'/plugged')
     Plug 'kylechui/nvim-surround'              " Add bracket surround code
     Plug 'xiyaowong/nvim-transparent'          " Remove background to make nvim tranparents
     Plug 'rmagatti/alternate-toggler'          " Quick change boolean value
+    Plug 'gcmt/wildfire.vim'                   " Select text in a group quickly by press Enter
     
     " UI Commandbar and notice
     Plug 'folke/noice.nvim'

@@ -10,10 +10,10 @@ let g:floaterm_keymap_toggle = '<F12>'
 let g:floaterm_title='Terminal $1/$2'
 
 " Set default floaterm width
-let g:floaterm_width=0.6
+let g:floaterm_width=0.9
 
 " Set default floaterm height
-let g:floaterm_height=0.7
+let g:floaterm_height=0.9
 
 " Set default exiting mode
 " 0: Always do NOT close floaterm window
@@ -30,4 +30,4 @@ hi Floaterm guibg=green
 " Set floating window border line color to cyan, and background to orange
 hi FloatermBorder guibg=orange guifg=cyan
 
-nnoremap <silent> <leader>fn :FloatermNew --height=0.7 --width=0.6 --wintype=float --position=topright<CR>
+nnoremap <silent> <leader>fn :FloatermNew --height=0.7 --width=0.7 --wintype=float --position=topright<CR>

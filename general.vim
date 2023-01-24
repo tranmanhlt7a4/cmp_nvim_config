@@ -22,8 +22,8 @@ set number                  " Show line number
 set ignorecase              " Enable case-sensitive
 set scrolloff=5
 set sidescrolloff=5
-set hlsearch=true
-set incsearch=true
+set hlsearch
+set incsearch
 set updatetime=300
 set timeoutlen=500
 

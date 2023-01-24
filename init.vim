@@ -22,6 +22,7 @@ call plug#begin(stdpath('config').'/plugged')
     Plug 'rmagatti/alternate-toggler'                     " Quick change boolean value
     Plug 'gcmt/wildfire.vim'                              " Select text in a group quickly by press Enter
     Plug 'mg979/vim-visual-multi', {'branch': 'master'}   " Multicursor
+    Plug 'tpope/vim-obsession'                            " Remember section
     
     " UI Commandbar and notice
     Plug 'folke/noice.nvim'

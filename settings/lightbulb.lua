@@ -43,7 +43,7 @@ LightBulbFunction = function()
             -- Text to provide when code actions are available
             text = "💡",
             -- Text to provide when no actions are available
-            text_unavailable = ""
+            text_unavailable = "No code action!"
         },
     }
 end

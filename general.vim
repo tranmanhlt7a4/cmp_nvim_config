@@ -20,6 +20,12 @@ set foldlevelstart=99
 set foldenable
 set number                  " Show line number
 set ignorecase              " Enable case-sensitive
+set scrolloff=5
+set sidescrolloff=5
+set hlsearch=true
+set incsearch=true
+set updatetime=300
+set timeoutlen=500
 
 " Disable backup
 set nobackup

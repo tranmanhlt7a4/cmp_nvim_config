@@ -1,13 +1,13 @@
 let g:bookmark_sign = '🔖'    "'♥'
 let g:bookmark_annotation_sign = '📝'
 
-nmap <space><space>b <Plug>BookmarkToggle
-nmap <space><space>i <Plug>BookmarkAnnotate
-nmap <space><space>a <Plug>BookmarkShowAll
-nmap <space><space>j <Plug>BookmarkNext
-nmap <space><space>k <Plug>BookmarkPrev
-nmap <space><space>c <Plug>BookmarkClear
-nmap <space><space>x <Plug>BookmarkClearAll
-nmap <space><space>kk <Plug>BookmarkMoveUp
-nmap <space><space>jj <Plug>BookmarkMoveDown
-nmap <space><space>g <Plug>BookmarkMoveToLine
+nmap <C-b>b <Plug>BookmarkToggle
+nmap <C-b>i <Plug>BookmarkAnnotate
+nmap <C-b>a <Plug>BookmarkShowAll
+nmap <C-b>j <Plug>BookmarkNext
+nmap <C-b>k <Plug>BookmarkPrev
+nmap <C-b>c <Plug>BookmarkClear
+nmap <C-b>x <Plug>BookmarkClearAll
+nmap <C-b>kk <Plug>BookmarkMoveUp
+nmap <C-b>jj <Plug>BookmarkMoveDown
+nmap <C-b>g <Plug>BookmarkMoveToLine

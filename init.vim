@@ -28,6 +28,7 @@ call plug#begin(stdpath('config').'/plugged')
     Plug 'neovim/nvim-lspconfig'             
     Plug 'williamboman/mason.nvim'           
     Plug 'williamboman/mason-lspconfig.nvim' 
+    Plug 'onsails/lspkind.nvim'                " Icon
 
     " Autocompletion Engine
     Plug 'hrsh7th/nvim-cmp'         

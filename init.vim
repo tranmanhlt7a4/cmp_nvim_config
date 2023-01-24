@@ -23,7 +23,8 @@ call plug#begin(stdpath('config').'/plugged')
     Plug 'gcmt/wildfire.vim'                              " Select text in a group quickly by press Enter
     Plug 'mg979/vim-visual-multi', {'branch': 'master'}   " Multicursor
     Plug 'MattesGroeger/vim-bookmarks'                    " Bookmark
-    
+    Plug 'tom-anders/telescope-vim-bookmarks.nvim'        " Find bookmark
+
     " UI Commandbar and notice
     Plug 'folke/noice.nvim'
     Plug 'MunifTanjim/nui.nvim'

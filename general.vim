@@ -25,7 +25,6 @@ set noswapfile
 
 " Optimize
 set synmaxcol=200
-set lazyredraw
 au! BufNewFile,BufRead *.json set foldmethod=indent " Change foldmethod for specific filetype
 
 syntax on

@@ -1,6 +1,3 @@
-
-  use 'windwp/nvim-autopairs'
-  use 'mg979/vim-visual-multi'
   use 'tpope/vim-surround'
 
   use 'MattesGroeger/vim-bookmarks'

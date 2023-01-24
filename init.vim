@@ -1,26 +1,27 @@
 call plug#begin(stdpath('config').'/plugged')
     " Utilities
-    Plug 'petertriho/nvim-scrollbar'           " Diagnostic scrollbar
-    Plug 'kevinhwang91/nvim-hlslens'           " Show search result better -> Can be displayed with diagnostic scrollbar above
-    Plug 'mcauley-penney/tidy.nvim'            " Auto clean trailing whitespace, empty lines at the end of the buffer when save
-    Plug 'simrat39/symbols-outline.nvim'       " See outline and all scope of code
-    Plug 'jghauser/mkdir.nvim'                 " Automatically creates missing directories on saving
-    Plug 'ziontee113/icon-picker.nvim'         " Icon picker
-        Plug 'stevearc/dressing.nvim'              " -> UI for icon picker
-    Plug 'windwp/nvim-autopairs'               " Auto add close bracket
-    Plug 'p00f/nvim-ts-rainbow'                " Highlight brackets in a pair
-    Plug 'lukas-reineke/indent-blankline.nvim' " Highlight block code
-    Plug 'ziontee113/color-picker.nvim'        " Color picker
-    Plug 'folke/which-key.nvim'                " Suggest key
-    Plug 'utilyre/barbecue.nvim'               " Display block of code on winbar where cursor is hoverring
-        Plug 'SmiteshP/nvim-navic'                 " -> LSP textDocument/documentSymbol provider, used by barbecue. Denending on nvim-lspconfig
-    Plug 'folke/trouble.nvim'                  " Diagnose window using LSP
-    Plug 'itchyny/vim-cursorword'              " Highlight current word and others under the cursor
-    Plug 'kosayoda/nvim-lightbulb'             " Display a lightbulb when have a hint
-    Plug 'kylechui/nvim-surround'              " Add bracket surround code
-    Plug 'xiyaowong/nvim-transparent'          " Remove background to make nvim tranparents
-    Plug 'rmagatti/alternate-toggler'          " Quick change boolean value
-    Plug 'gcmt/wildfire.vim'                   " Select text in a group quickly by press Enter
+    Plug 'petertriho/nvim-scrollbar'                      " Diagnostic scrollbar
+    Plug 'kevinhwang91/nvim-hlslens'                      " Show search result better -> Can be displayed with diagnostic scrollbar above
+    Plug 'mcauley-penney/tidy.nvim'                       " Auto clean trailing whitespace, empty lines at the end of the buffer when save
+    Plug 'simrat39/symbols-outline.nvim'                  " See outline and all scope of code
+    Plug 'jghauser/mkdir.nvim'                            " Automatically creates missing directories on saving
+    Plug 'ziontee113/icon-picker.nvim'                    " Icon picker
+        Plug 'stevearc/dressing.nvim'                         " -> UI for icon picker
+    Plug 'windwp/nvim-autopairs'                          " Auto add close bracket
+    Plug 'p00f/nvim-ts-rainbow'                           " Highlight brackets in a pair
+    Plug 'lukas-reineke/indent-blankline.nvim'            " Highlight block code
+    Plug 'ziontee113/color-picker.nvim'                   " Color picker
+    Plug 'folke/which-key.nvim'                           " Suggest key
+    Plug 'utilyre/barbecue.nvim'                          " Display block of code on winbar where cursor is hoverring
+        Plug 'SmiteshP/nvim-navic'                            " -> LSP textDocument/documentSymbol provider, used by barbecue. Denending on nvim-lspconfig
+    Plug 'folke/trouble.nvim'                             " Diagnose window using LSP
+    Plug 'itchyny/vim-cursorword'                         " Highlight current word and others under the cursor
+    Plug 'kosayoda/nvim-lightbulb'                        " Display a lightbulb when have a hint
+    Plug 'kylechui/nvim-surround'                         " Add bracket surround code
+    Plug 'xiyaowong/nvim-transparent'                     " Remove background to make nvim tranparents
+    Plug 'rmagatti/alternate-toggler'                     " Quick change boolean value
+    Plug 'gcmt/wildfire.vim'                              " Select text in a group quickly by press Enter
+    Plug 'mg979/vim-visual-multi', {'branch': 'master'}   " Multicursor
     
     " UI Commandbar and notice
     Plug 'folke/noice.nvim'

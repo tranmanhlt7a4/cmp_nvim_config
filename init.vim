@@ -19,7 +19,8 @@ call plug#begin(stdpath('config').'/plugged')
     Plug 'kosayoda/nvim-lightbulb'             " Display a lightbulb when have a hint
     Plug 'kylechui/nvim-surround'              " Add bracket surround code
     Plug 'xiyaowong/nvim-transparent'          " Remove background to make nvim tranparents
-
+    Plug 'rmagatti/alternate-toggler'          " Quick change boolean value
+    
     " UI Commandbar and notice
     Plug 'folke/noice.nvim'
     Plug 'MunifTanjim/nui.nvim'

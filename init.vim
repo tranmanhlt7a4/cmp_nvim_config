@@ -7,7 +7,7 @@ call plug#begin(stdpath('config').'/plugged')
     Plug 'jghauser/mkdir.nvim'                 " Automatically creates missing directories on saving
     Plug 'ziontee113/icon-picker.nvim'         " Icon picker
         Plug 'stevearc/dressing.nvim'              " -> UI for icon picker
-    Plug 'jiangmiao/auto-pairs'                " Auto add close bracket
+    Plug 'windwp/nvim-autopairs'               " Auto add close bracket
     Plug 'p00f/nvim-ts-rainbow'                " Highlight brackets in a pair
     Plug 'lukas-reineke/indent-blankline.nvim' " Highlight block code
     Plug 'ziontee113/color-picker.nvim'        " Color picker

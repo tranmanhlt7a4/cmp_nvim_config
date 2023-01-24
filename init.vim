@@ -22,7 +22,6 @@ call plug#begin(stdpath('config').'/plugged')
     Plug 'rmagatti/alternate-toggler'                     " Quick change boolean value
     Plug 'gcmt/wildfire.vim'                              " Select text in a group quickly by press Enter
     Plug 'mg979/vim-visual-multi', {'branch': 'master'}   " Multicursor
-    Plug 'j-hui/fidget.nvim'                              " LSP Status
     
     " UI Commandbar and notice
     Plug 'folke/noice.nvim'

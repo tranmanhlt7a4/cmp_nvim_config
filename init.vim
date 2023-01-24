@@ -24,7 +24,8 @@ call plug#begin(stdpath('config').'/plugged')
     Plug 'mg979/vim-visual-multi', {'branch': 'master'}   " Multicursor
     Plug 'MattesGroeger/vim-bookmarks'                    " Bookmark
     Plug 'tom-anders/telescope-vim-bookmarks.nvim'        " Find bookmark
-
+    Plug 'mbbill/undotree'                                " Undo tree
+    
     " UI Commandbar and notice
     Plug 'folke/noice.nvim'
     Plug 'MunifTanjim/nui.nvim'

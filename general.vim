@@ -14,7 +14,10 @@ set listchars=tab:\¦\       " Tab charactor
 set list
 set foldmethod=syntax       "
 set foldnestmax=1
-set foldlevelstart=0        "
+set foldcolumn=1
+set foldlevel=99
+set foldlevelstart=99
+set foldenable
 set number                  " Show line number
 set ignorecase              " Enable case-sensitive
 

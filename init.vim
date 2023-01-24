@@ -25,6 +25,8 @@ call plug#begin(stdpath('config').'/plugged')
     Plug 'MattesGroeger/vim-bookmarks'                    " Bookmark
     Plug 'tom-anders/telescope-vim-bookmarks.nvim'        " Find bookmark
     Plug 'mbbill/undotree'                                " Undo tree
+    Plug 'kevinhwang91/nvim-ufo'                          " Better fold
+        Plug 'kevinhwang91/promise-async'                     " Require for nvim-ufo
     
     " UI Commandbar and notice
     Plug 'folke/noice.nvim'
